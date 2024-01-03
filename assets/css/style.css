@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+.navibar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-image: linear-gradient(to right , #3c096c,#ff006e);
+}
+
+.navhead {
+    font-family: 'Monoton', sans-serif;
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+    color: rgb(250, 247, 247);
+}
+
+.navopt a {
+    font-size: 15px;
+    font-family: 'Song Myung';
+    color: white;
+}
+
+.navopt a:hover {
+    font-size: 15px;
+    font-family: 'Song Myung';
+    color: #8e6ab4;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: rgb(255 104 183);
+}
+
+/* banner start */
+.Content1 {
+    background-image: linear-gradient(to right , #3c096c,#ff006e);
+    color: white;
+}
+
+.banner-title {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.Contxt{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.banner-para{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.play {
+    width: 45px;
+    margin: 10px;
+}
+.conA{
+    font-family: 'Song Myung';
+}
+
+.Content1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.imgbottom{
+    width: 100%;
+}
+
+/* banner end */
+
+/* countown start */
+
+
+.coundown{
+    padding: 20px 0px;
+}
+
+.icons {
+    width: 40px;
+    margin: 10px;
+    
+}
+
+.counthead{
+    font-size: 35px;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.countpara{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.counter-item p{
+    font-family:'Times New Roman', Times, serif; 
+    font-size: 13px;
+}
+
+.counter-item h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 19px;
+    padding-left: 10px;
+}
+
+.countbtn{
+    border-radius: 100px;
+    background-image: linear-gradient(to right , #3c096c,#ff006e);
+    border-color: transparent;
+    font-family:'Times New Roman', Times, serif;
+}
+/* countdown end */
+
+
+/* card start */
+
+.cards{
+    background-image: linear-gradient(to right , #3c096c,#ff006e);
+    padding: 55px 0px 40px 0px;
+}
+
+.card-content{
+    color: rgb(255, 255, 255);
+    
+}
+
+.card-content .h2{
+    font-size: 55px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-p{
+    text-align:left;
+    padding: 0px 20px;
+}
+
+.cardbtn{
+    border-radius: 60px;
+    background-image: linear-gradient(to right , #3c096c,#ff006e);
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    border-color:  #3c096c ;
+}
+
+/* card end */
+
+/* client start */
+
+.clientcard{
+    
+    padding: 5px 5px 5px 5px;
+    border-radius: 8px 0px 8px 0px;
+    border-color: black;
+}
+
+
+.clientshead{
+    font-family: 'Song Myung';
+    font-weight: bold;
+    font-size: 4vw;  
+    background: -webkit-linear-gradient( #d10d90, #1a2799);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   text-align: left;
+}
+
+.clientspara{
+    font-size: 15px;
+    font-family: 'Song Myung';
+    font-weight: bold;
+    text-align: left;
+}
+
+.img {
+    top: 0;
+    padding-left: 10px;
+    padding-bottom:0px;
+    right: 0;
+}
+
+.badge span {
+   color: black;
+}
+
+.clientTitle{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.param{
+    font-size: 11px;
+}
+
+/* client end */
+
+
+
+/* download start */
+.DownloadNow{
+    background-image: linear-gradient(to right , #3c096c,#ff006e);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.downTitle{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.downparam{
+        font-size: 11px;
+}
+
+.downbtn{
+    border-radius: 40px;
+    background-image: linear-gradient(to right , #3c096c,#ff006e); 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+    border-color:  #ffffff ;
+}
+/* download end */
+
+
+/* work start */
+
+
+/* work end */
+
+
+.down{
+    text-align: center;
+}
+
+.down .workTitle{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.down .workparam{
+    font-size: 11px;
+}
+
+.worktxt{
+    font-size: 50px;
+    font-weight:550;
+}
+
+.workpara{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.workbtn{
+    border-radius: 100px;
+    background-image: linear-gradient(to right , #3c096c,#ff006e);
+    border-color: transparent;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* footer */
+.footer{
+    background-image: linear-gradient(to right , #3c096c,#ff006e);
+    color: white;
+}
+.footTitle{
+	font-size: 18px;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footTitle::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footopt a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	display: block;
+	
+}
+
+.social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
